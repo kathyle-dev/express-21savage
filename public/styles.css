@@ -1,0 +1,44 @@
+*{
+  margin: none;
+  padding: none;
+}
+body{
+  height: 100vh;
+  background-image: url("https://static.displate.com/857x1200/displate/2020-04-04/916a828df1612e4f64dcd8be370f7d77_660dda8327988693abc8ddb92567fd12.jpg");
+  background-position: center;
+  background-repeat: repeat;
+  background-size: contain;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height:90%;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: 'Yatra One', cursive;
+  color: white;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
+}
+h1{
+  font-size: 40px;
+  text-transform: uppercase;
+}
+h2{
+font-size: 32px;
+}
+h3{
+font-size: 28px;
+}
+.message{
+  font-size: 20px;
+}
+ul{
+  list-style-type: "\1F525";
+}
